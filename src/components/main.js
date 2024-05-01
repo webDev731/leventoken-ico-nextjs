@@ -2,10 +2,7 @@ import React from "react";
 import Head from "next/head";
 import FavIcon from "assets/images/fav-icon.svg";
 
-const Main = ({
-  children,
-  title = "LevenToken",
-}) => {
+const Main = ({ children, title = "LevenToken" }) => {
   return (
     <React.Fragment>
       <Head>
